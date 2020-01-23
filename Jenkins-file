@@ -2,8 +2,7 @@ pipeline{
     agent any
        stages{
            stage("git checkout"){
-               steps{
-                  git credentialsId: 'github_Pwd', url: 'https://github.com/syedimran0479/https-github.com-MithunTechnologiesDevOps-java-web-appdocker.git'
+               
                    
                }
            }
